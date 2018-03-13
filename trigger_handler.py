@@ -43,6 +43,7 @@ END;
 GO
     '''
                     tail = '''
+GO                    
 PRINT concat('[INFO] ', convert(varchar,getdate(),120), ' - Created Trigger '''+trigger_name+'''...')
 GO
     '''
